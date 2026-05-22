@@ -11,7 +11,7 @@ app = Flask(__name__)
 app.secret_key = 'morahshop-secret-key-2026'
 
 # ========================== KONFIGURASI ====================
-STORE_NAME = 'MORAH SHOP'
+STORE_NAME = 'CECKOUT'
 WHATSAPP_ADMIN = '6285138718594'
 EMAIL_SENDER = 'morahshop@gmail.com'
 EMAIL_PASSWORD = 'ewsv nupx pvem olmq'
@@ -928,7 +928,7 @@ def update_product():
 
 @app.route('/test-wa')
 def test_wa():
-    result = send_whatsapp(WHATSAPP_ADMIN, "🧪 Test MORAHSHOP: WA OK!")
+    result = send_whatsapp(WHATSAPP_ADMIN, "🧪 Test CECKOUT: WA OK!")
     return "✅ WA OK" if result else "❌ WA GAGAL"
 
 @app.route('/test-email')
