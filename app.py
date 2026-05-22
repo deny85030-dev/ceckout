@@ -11,7 +11,7 @@ app = Flask(__name__)
 app.secret_key = 'morahshop-secret-key-2026'
 
 # ========================== KONFIGURASI ====================
-STORE_NAME = 'CECKOUT'
+STORE_NAME = 'LINK CECKOUT'
 WHATSAPP_ADMIN = '6285138718594'
 EMAIL_SENDER = 'morahshop@gmail.com'
 EMAIL_PASSWORD = 'ewsv nupx pvem olmq'
